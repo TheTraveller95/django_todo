@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 import dj_database_url
-from dotenv import load_dotenv
 
 if os.environ.get('DEVELOPMENT'):
     development = True
@@ -27,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = '&%48_u%r0ijho-dy%ps7654kb15om)h80l-rhy87a2=@+l6jp%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
